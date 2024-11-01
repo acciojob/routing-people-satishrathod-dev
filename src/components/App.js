@@ -6,10 +6,52 @@ import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   const users = [
-    { id: 1, name: "Leanne Graham", email: "leanne@example.com" },
-    { id: 2, name: "Bret", email: "bret@example.com" },
-    { id: 3, name: "Shubham Wagh", email: "shubham@example.com" },
-    { id: 4, name: "Rohit Palkar", email: "rohit@example.com" },
+    {
+      id: 1,
+      name: "Leanne Graham",
+      description: "Description for Item 1",
+      username: "Bret",
+      email: "Sincere@april.biz",
+      Phone: "1-770-736-8031 x56442",
+      Website: "hildegard.org",
+    },
+    {
+      id: 2,
+      name: "Ervin Howell",
+      description: "Description for Item 2",
+      username: "Antonette",
+      email: "Sincere@april.biz",
+      Phone: "1-770-736-8031 x56442",
+      Website: "hildegard.org",
+    },
+
+    {
+      id: 3,
+      name: "Clenmentine Bouch",
+      description: "Description for Item 3’,username: “Samantha",
+      email: "Sincere@april.biz",
+      Phone: "1-770-736-8031 x56442",
+      Website: "hildegard.org",
+    },
+
+    {
+      id: 4,
+      name: "Patricia Labsack",
+      description: "Description for Item 3’,username: “Bret",
+      email: "Sincere@april.biz",
+      Phone: "1-770-736-8031 x56442",
+      Website: "hildegard.org",
+    },
+
+    {
+      id: 5,
+      name: "Clementina DuBuque",
+      description: "Description for Item 3",
+      username: "Moriah.Stanton",
+      email: "Rey.Padberg@karina.biz",
+      Phone: "024-648-3804",
+      Website: "ambrose.net",
+    },
   ];
 
   return (

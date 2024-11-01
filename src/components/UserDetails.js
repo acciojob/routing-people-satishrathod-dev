@@ -29,9 +29,16 @@ const UserDetails = ({ users }) => {
   return (
     <div>
       <h1>User Details</h1>
-      <p>{"Name: " + user.name}</p>
 
-      <p>Email: {user.email}</p>
+      <p>Name: {user.name}</p>
+
+      <p>Username: {user.username} </p>
+
+      <p>Email: {user.email} </p>
+
+      <p>Phone: {user.Phone} </p>
+
+      <p>Website: {user.Website}</p>
     </div>
   );
 };
