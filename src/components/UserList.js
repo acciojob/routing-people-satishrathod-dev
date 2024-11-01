@@ -7,9 +7,9 @@ const UserList = ({ users }) => {
       <h1>User List</h1>
       <ul>
         {users.map((user) => (
-          <p key={user.id}>
+          <li key={user.id}>
             <Link to={`/users/${user.id}`}>{user.name}</Link>
-          </p>
+          </li>
         ))}
       </ul>
     </div>
