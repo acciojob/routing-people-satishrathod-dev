@@ -29,7 +29,8 @@ const UserDetails = ({ users }) => {
   return (
     <div>
       <h1>User Details</h1>
-      <p>Username: {user.name}</p>
+      <p>{`Username: ${user.name}`}</p>
+
       <p>Email: {user.email}</p>
     </div>
   );
